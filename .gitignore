@@ -223,3 +223,9 @@ mlruns/
 model_local/
 *.key
 .amlignore
+
+# Azure ML temporary and generated files
+*.amltmp
+.ipynb_aml_checkpoints/
+**/.ipynb_aml_checkpoints/
+confusion_matrix.png

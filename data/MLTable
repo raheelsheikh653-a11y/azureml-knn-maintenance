@@ -1,0 +1,7 @@
+paths:
+  - file: ./ai4i_clean.csv
+transformations:
+  - read_delimited:
+      delimiter: ','
+      encoding: 'utf8'
+      header: all_files_same_headers
